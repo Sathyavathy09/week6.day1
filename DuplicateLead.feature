@@ -1,9 +1,7 @@
 Feature: Duplicate Lead in the LeafTaps Application
 
 Background:
-Given Open the Chrome Browser
-And Load the URL
-And Enter Username as "Demosalesmanager"
+When Enter Username as "Demosalesmanager"
 And Enter Password as "crmsfa"
 When Click on Login button
 Given Click on CRM
